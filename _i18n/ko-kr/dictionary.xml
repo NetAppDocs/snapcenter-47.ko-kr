@@ -7916,4 +7916,6 @@
   <block id="04f76259e3406e39f106d09b85354906" category="inline-link">Exchange 백업용 SnapCenter는 볼트 대상 로그 볼륨에 스냅샷의 절반만 유지합니다</block>
   <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">Exchange 볼륨(LUN)을 처리할 때 로그 및 데이터베이스에 대해 별도의 볼트 정책을 생성하고 동일한 레이블을 사용하여 로그 정책의 유지(보존)를 데이터베이스 정책으로 각 레이블에 대해 두 배로 설정합니다. 자세한 내용은 다음을 참조하십시오.<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>.</block>
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">IBM Java는 지원되지 않습니다.</block>
+  <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">LUN에 대한 디바이스를 검색할 수 없어 작업이 실패합니다</block>
+  <block id="24642a08e354f43168ca4f1178850f84" category="list-text">혼합 프로토콜 iSCSI 및 FC로 구성된 iGroup을 사용하여 LUN이 AIX 호스트에 매핑되지 않았는지 확인해야 합니다. 자세한 내용은 을 참조하십시오<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
 </blocks>
