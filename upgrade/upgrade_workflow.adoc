@@ -15,7 +15,7 @@ SnapCenter의 각 릴리즈에는 업데이트된 SnapCenter 서버 및 플러�
 
 워크플로우는 SnapCenter 서버 및 플러그인 패키지를 업그레이드하는 데 필요한 여러 작업을 보여 줍니다.
 
-image::../media/upgrade_workflow.png[워크플로우 업그레이드]
+image::../media/upgrade_workflow.gif[워크플로우 업그레이드]
 
 
 

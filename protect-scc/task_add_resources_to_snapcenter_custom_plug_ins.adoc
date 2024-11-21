@@ -23,10 +23,6 @@ link:concept_develop_a_plug_in_for_your_application.html["응용 프로그램용
 * SnapCenter 서버에 플러그인을 업로드해야 합니다.
 
 
-* 이 작업에 대한 정보 *
-
-MySQL 및 DB2 애플리케이션에 대한 리소스를 추가할 수도 있습니다. 이러한 플러그인은 에서 다운로드할 수 있습니다 https://automationstore.netapp.com/home.shtml["NetApp 스토리지 자동화 스토어"].
-
 * 단계 *
 
 . 왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 목록에서 적절한 플러그인을 선택합니다.
@@ -75,7 +71,7 @@ MySQL 및 DB2 애플리케이션에 대한 리소스를 추가할 수도 있습�
 |===
 . 스토리지 설치 공간 제공 페이지에서 스토리지 시스템을 선택하고 하나 이상의 볼륨, LUN 및 qtree를 선택한 다음 * 저장 * 을 클릭합니다.
 +
-선택 사항: 을 클릭합니다 image:../media/add_policy_from_resourcegroup.gif[""] 아이콘을 클릭하여 다른 스토리지 시스템에서 볼륨, LUN 및 qtree를 더 추가합니다.
+선택 사항: 아이콘을 클릭하여 image:../media/add_policy_from_resourcegroup.gif["리소스 그룹에서 정책을 추가합니다"]다른 스토리지 시스템의 볼륨, LUN 및 Qtree를 추가합니다.
 
 +
 

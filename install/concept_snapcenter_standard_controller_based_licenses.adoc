@@ -59,8 +59,8 @@ NOTE: 컨트롤러에 SnapManager Suite 라이센스가 이미 있는 경우 Sna
 컨트롤러 라이센스 열에는 다음 상태가 표시됩니다.
 
 +
-** image:../media/controller_licensed_icon.gif[""] SnapManager Suite 라이센스가 FAS 또는 AFF 운영 스토리지 시스템에 설치되어 있음을 나타냅니다.
-** image:../media/controller_not_licensed_icon.gif[""] SnapManager Suite 라이센스가 FAS 또는 AFF 운영 스토리지 시스템에 설치되어 있지 않음을 나타냅니다.
+** image:../media/controller_licensed_icon.gif["컨트롤러 라이센스 아이콘"] FAS 또는 AFF 운영 스토리지 시스템에 SnapManager 제품군 라이센스가 설치되어 있음을 나타냅니다.
+** image:../media/controller_not_licensed_icon.gif["컨트롤러 라이센스 없음 아이콘"] FAS 또는 AFF 운영 스토리지 시스템에 SnapManager 제품군 라이센스가 설치되어 있지 않음을 나타냅니다.
 ** 해당 없음 은 스토리지 컨트롤러가 Cloud Volumes ONTAP, ONTAP Select 또는 보조 스토리지 플랫폼에 있기 때문에 SnapManager Suite 라이센스가 적용되지 않음을 나타냅니다.
 
 
@@ -180,7 +180,7 @@ FAS 또는 AFF 스토리지를 사용하는 경우 ONTAP 명령줄을 사용하�
 . 시스템 * > * 소프트웨어 라이센스 * 로 이동합니다.
 . 선택 기준 영역에서 일련 번호(장치 뒷면에 있음)가 선택되었는지 확인하고 컨트롤러 일련 번호를 입력한 다음 * Go! * 를 클릭합니다.
 +
-image::../media/nss_controller_license_select.gif[NSS 컨트롤러 라이센스 선택]
+image::../media/nss_controller_license_select.gif[컨트롤러 라이센스를 선택합니다]
 
 +
 지정된 컨트롤러의 라이센스 목록이 표시됩니다.
@@ -238,7 +238,7 @@ NOTE: SnapCenter 표준 컨트롤러 기반 라이센스를 사용하는 경우�
 .. Open-SmConnection cmdlet을 실행하여 SnapCenter 서버에서 SnapCenterAdmin 계정에 대한 연결 세션을 시작합니다.
 .. Set-SmRepositoryPassword를 실행하여 MySQL 암호를 재설정합니다.
 +
-cmdlet에 대한 자세한 내용은 을 참조하십시오 https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["SnapCenter 소프트웨어 cmdlet 참조 가이드"^].
+cmdlet에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["SnapCenter 소프트웨어 cmdlet 참조 가이드"^]참조하십시오.
 
 
 
