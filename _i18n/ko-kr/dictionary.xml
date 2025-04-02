@@ -4255,7 +4255,6 @@
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">SnapCenter를 사용하여 SMBR의 보조 스토리지에서 복원하는 방법</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">SMBR을 사용하여 SnapVault에서 Microsoft Exchange Mail 복구</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="ec053c308e147d0958e28a0ea54218e5" category="summary">복제본이 손상된 경우와 같이 복제본을 재시딩해야 하는 경우 SnapCenter의 재시딩된 기능을 사용하여 최신 백업으로 재시딩할 수 있습니다.</block>
   <block id="aabc88376ed488867dcbd5ebe7ee5f24" category="doc">패시브 Exchange 노드 복제본을 다시 시딩했습니다</block>
   <block id="95ae09e6950aff657a0ec2b6e13f37f0" category="list-text">SnapCenter Server 4.1 이상을 사용하고 Exchange 4.1 이상을 위한 플러그인을 사용해야 합니다.</block>
@@ -5494,7 +5493,6 @@
   <block id="2a1a78f96ec6b03f3ccdd06b708e6f1a" category="list-text">(선택 사항) 재해 복구(DR) 백업에서 새 시스템으로 SQL Server용 SnapCenter 플러그인 구성 파일을 교체합니다.</block>
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">DR 백업에서 SnapCenter Plug-in for SQL Server 폴더에서 Windows 및 SQL 일정을 가져옵니다.</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link">재해 복구 API</block>
-  <block id="90840bc3d6109c892e0f709274fdc6b6" category="paragraph">자세한 내용은 를 참조하십시오<block ref="af818973dd6acaf1e28a3bd4ca9bd4a5" category="inline-link-rx"></block> 비디오.</block>
   <block id="a8827ae14ad272b19b5554bf29b0dd50" category="summary">SQL Server 운영 스토리지용 SnapCenter 플러그인이 다시 온라인 상태가 되면 운영 스토리지로 페일백해야 합니다.</block>
   <block id="c259d7aac6b257b97bf45bb54cdbfb28" category="doc">SnapCenter Plug-in for SQL Server 보조 스토리지에서 운영 스토리지로 페일백</block>
   <block id="7ffc5c3595639b4cfa7e25819a476178" category="list-text">관리 호스트 페이지의 * 유지 관리 * 모드로 SQL Server용 SnapCenter 플러그인을 배치합니다.</block>
@@ -7941,4 +7939,6 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="1d1b01258ef419d4f55f117e4f1c31b5" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>있습니다.</block>
   <block id="6e3721ff221b27bff22381b01334befc" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 를 참조할 수도<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>있습니다.</block>
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">여러 호스트를 업그레이드하려면 모든 호스트를 선택하고 를 클릭한 다음 * Upgrade * &gt; * OK * 를 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>클릭합니다.</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">자세한 내용은 비디오를 참조하십시오<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>.</block>
 </blocks>
