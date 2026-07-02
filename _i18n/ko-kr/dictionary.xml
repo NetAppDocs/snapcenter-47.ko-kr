@@ -1366,7 +1366,6 @@
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>.</block>
   <block id="0a43bd1f35095f6ca081444f65372381" category="section-title">CA 인증서를 배포합니다</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">SSL 인증서를 생성하거나 가져옵니다</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 사용하여 CA 인증서를 구성하려면 를 참조하십시오<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>.</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">CRL 파일을 구성합니다</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 사전 구성된 디렉토리에서 CRL 파일을 찾습니다. VMware vSphere용 SnapCenter 플러그인의 기본 CRL 파일 디렉토리는 _/opt/netapp/config/CRL_ 입니다.</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">이 디렉터리에 둘 이상의 CRL 파일을 배치할 수 있습니다. 들어오는 인증서는 각 CRL에 대해 확인됩니다.</block>
@@ -5387,8 +5386,6 @@
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">클론 수명주기 수행</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link-macro">클론 작업이 실패하거나 기본 TCP_TIMEOUT 값으로 완료하는 데 시간이 더 오래 걸릴 수 있습니다</block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="e120fc76fd23e12235b495bc6454901a" category="doc">SQL 플러그인에 필요한 최소 ONTAP 권한</block>
   <block id="5abc04a0058572b3476c739ab8f716ae" category="summary">Microsoft SQL Server용 SnapCenter 플러그인은 SQL Server 2012 이상에서 검색, 고가용성을 위한 Asymmetric LUN Mapping\(ALM\) 구성, 재해 복구를 위한 가용성 그룹을 지원합니다. 리소스를 검색할 때 SnapCenter는 로컬 호스트와 ALM 구성의 원격 호스트에서 데이터베이스를 검색합니다.</block>
   <block id="142782e834c9014d923c3a1905a8dcdc" category="doc">Windows 클러스터에서 비대칭 LUN 매핑 지원</block>
@@ -5467,9 +5464,7 @@
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server 데이터베이스, 인스턴스 또는 가용성 그룹을 백업합니다</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">장애 조치 클러스터 인스턴스 데이터베이스 클론에 장애가 발생합니다</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="9ca74d34b57102a33530d9899af7733c" category="summary">클론 복제 전략을 정의하면 데이터베이스를 성공적으로 복제할 수 있습니다.</block>
   <block id="9cd5b5b3661b19fdc904212b1625d8a4" category="doc">SQL Server에 대한 클론 생성 전략을 정의합니다</block>
   <block id="eb183fafee64c1e1dd422fb241b192d3" category="list-text">클론 작업과 관련된 제한 사항을 검토합니다.</block>
@@ -5637,10 +5632,7 @@
   <block id="8e927494c3186b26a3de09d9578e731f" category="paragraph">정책의 * Verify * 옵션은 예약된 작업에만 적용됩니다.</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">TCP_TIMEOUT의 지연으로 인해 MySQL 연결 오류로 인해 백업 작업이 실패합니다</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Windows 스케줄러 오류로 인해 백업이 실패합니다</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="dae1725dc2e5765223411b1d431ef15d" category="doc">Microsoft Windows용 SnapCenter 플러그인 및 Microsoft SQL Server용 플러그인이 지원하는 스토리지 유형입니다</block>
   <block id="ed23594fb532cf4eb57e0617ea972d01" category="summary">SnapCenter를 사용하여 백업된 SQL Server 데이터베이스를 복원할 수 있습니다. 데이터베이스 복원은 모든 데이터와 로그 페이지를 지정된 SQL Server 백업에서 지정된 데이터베이스로 복사하는 다단계 프로세스입니다.</block>
   <block id="8dc83a66a1d1ae521ee2721fa555da40" category="doc">SQL Server 데이터베이스 백업을 복원합니다</block>
@@ -5751,7 +5743,6 @@
   <block id="5891deda92209d1d45144775b7d5c20d" category="admonition">Windows 스케줄러 또는 SQL Server 에이전트에서 생성된 백업 작업의 이름은 바꾸지 않아야 합니다.</block>
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">암시적 리소스 그룹이 만들어집니다. 사용자 액세스 페이지에서 해당 사용자 또는 그룹을 선택하여 이 정보를 볼 수 있습니다. 암시적 리소스 그룹 유형은 "리소스"입니다.</block>
   <block id="f1b0e4721c4648a3a0d9747b1df24457" category="inline-link">리소스 중지 또는 그룹화 작업이 실패했습니다</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="a7532c252c594c82935a8c1dfb2797df" category="summary">SnapCenter를 사용하면 리소스 그룹 또는 데이터베이스에서 클론을 생성할 수 있습니다. 필요 시 클론을 수행하거나 리소스 그룹 또는 데이터베이스의 반복적인 클론 작업을 예약할 수 있습니다. 주기적으로 백업을 클론하는 경우 클론을 사용하여 애플리케이션을 개발하거나 데이터를 채우거나 데이터를 복구할 수 있습니다.</block>
   <block id="e2baeb6d36971b32336c0afa64291666" category="paragraph">SnapCenter를 사용하면 리소스 그룹 또는 데이터베이스에서 클론을 생성할 수 있습니다. 필요 시 클론을 수행하거나 리소스 그룹 또는 데이터베이스의 반복적인 클론 작업을 예약할 수 있습니다. 주기적으로 백업을 클론하는 경우 클론을 사용하여 애플리케이션을 개발하거나 데이터를 채우거나 데이터를 복구할 수 있습니다.</block>
   <block id="cd39e8b84c367c07b34d183687284b51" category="paragraph">SnapCenter를 사용하면 여러 서버에서 동시에 여러 클론 작업을 실행하도록 예약할 수 있습니다.</block>
@@ -6017,8 +6008,6 @@
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">Windows용 플러그인은 Microsoft 클러스터의 가상 시스템에서 MPIO를 지원하지 않습니다.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">공유 FC RDM LUN을 생성합니다</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">FC RDM LUN을 사용하여 Microsoft 클러스터의 노드 간에 스토리지를 공유하려면 먼저 공유 쿼럼 디스크와 공유 스토리지 디스크를 생성한 다음 클러스터의 두 가상 머신에 추가해야 합니다.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">물리적 호스트에서 가상 시스템을 클러스터링합니다</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">Windows용 플러그인을 사용하여 공유 디스크가 생성되지 않습니다. 공유 LUN을 생성한 다음 클러스터의 각 가상 머신에 추가해야 합니다. 자세한 내용은 을 참조하십시오<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>.</block>
   <block id="e50267850b333a2a2c47f0cee7337818" category="summary">SnapCenter 서버 및 응용 프로그램 또는 데이터베이스 플러그인을 설치하기 전에 연결 및 포트 요구 사항이 충족되었는지 확인해야 합니다.</block>
   <block id="9a0980e2d2a75eb076f41f7a4d439162" category="doc">연결 및 포트 요구 사항</block>
   <block id="3b6aba921e77b08934dcdcdab274466d" category="list-text">응용 프로그램이 포트를 공유할 수 없습니다.</block>
@@ -7941,4 +7930,12 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">자세한 내용은 비디오를 참조하십시오<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>.</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">SnapCenter Plug-in for VMware vSphere에서 CA 인증서를 구성하려면 <block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">공유 디스크는 Plug-in for Windows를 사용하여 생성되지 않습니다. 공유 LUN을 생성한 다음 클러스터의 각 가상 머신에 추가해야 합니다.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">관련 정보</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Broadcom 기술 문서</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph"><block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block>를 참조하여 물리적 호스트에 걸쳐 가상 머신을 클러스터링하고 Microsoft 클러스터용 공유 FC RDM LUN을 생성하는 방법에 대한 문서를 검색하십시오.</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>
